@@ -5,8 +5,8 @@
   <div id="nav">
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
+    <h1>Tanachok</h1>
   </div>
-
   <!-- new element -->
   <router-view />
 </template>
